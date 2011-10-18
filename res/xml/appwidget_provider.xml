@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dp"
+    android:minHeight="72dp"
+    android:updatePeriodMillis="86400000"
+    android:initialLayout="@layout/widget_layout"
+    >
+</appwidget-provider>
+<!-- Widget grid consists of blocks of 74dp * 74dp you should subtract 2 from height and width
+so use formula (number of cells * 74) - 2 -->
+<!-- 86400000 is the value of AlarmManager.INTERVAL_DAY - or once per day. -->
+
