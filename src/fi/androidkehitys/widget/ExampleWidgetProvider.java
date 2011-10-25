@@ -1,4 +1,4 @@
-package androidkehitys.fi.widget;
+package fi.androidkehitys.widget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -7,6 +7,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
+import androidkehitys.fi.widget.R;
 
 public class ExampleWidgetProvider extends AppWidgetProvider {
 	private static int number = 0;

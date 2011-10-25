@@ -6,7 +6,7 @@
     <uses-sdk android:minSdkVersion="7" />
 
 	<application android:icon="@drawable/icon" android:label="@string/app_name">
-		<receiver android:name=".ExampleWidgetProvider">
+		<receiver android:name="fi.androidkehitys.widget.ExampleWidgetProvider">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
